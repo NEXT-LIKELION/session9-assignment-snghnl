@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+}
+#toss_logo {
+    width: 170px;
+    height: auto;
+}
+#header_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left: auto;
+    gap: 1rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    flex-grow: 1;
+}
+
+.box {
+    border: 2px solid #eaeaea;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+#toss_bank {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#toss_bank svg {
+    margin-left: 1rem;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.element_metadata {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.element_logo img {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.element_name {
+    font-size: 0.8rem;
+}
+
+.balance {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.send_button {
+    font-size: 0.8rem;
+    text-align: center;
+    border: 2px solid gainsboro;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    border-radius: 5px;
+    background-color: gainsboro;
+    margin-left: auto;
+}
+
+#spendings .element_logo img {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #ccc;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    border-top: 2px solid #ccc;
+    padding-top: 1rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.footer_icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 2rem;
+}
+
+.footer_icon svg {
+    width: 24px;
+    height: 24px;
+    fill: black;
+}
